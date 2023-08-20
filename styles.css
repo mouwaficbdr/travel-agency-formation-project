@@ -1,0 +1,288 @@
+/*GENERAL*/
+*
+{
+   margin:0;
+   padding:0; 
+}
+small
+{
+        font-size: 13px;
+        font-style: italic;
+}
+body
+{
+    font-family: Arial,sans-serif;
+    font-size:15px;
+}
+h1,h2,h3,h4
+{
+    color:#444 ;
+}
+h1
+{
+    font-family: "Crete Round";
+    font-size: 45px;
+}
+
+h2
+{
+    font-size: 55px ;
+}  
+h3
+{
+    text-transform: uppercase;
+    font-size: 30px ;
+}        
+
+h4
+{
+    text-transform: uppercase;
+    font-size: 24px ;
+}
+p
+{
+    color:#777;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color:#444;
+}
+.wrapper
+{
+    width:940px;
+    margin:0 auto;
+    padding:0 10 ;
+}
+.orange
+{
+    color:rgb(228, 117, 76);
+}
+.clear
+{
+        clear:both ;
+}
+/*HEADER*/
+header
+{
+ height:120px;
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+
+header nav 
+{
+        float: right;
+        margin-top: 50px;
+}
+header nav ul li
+{
+    float: left ;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* MAIN IMAGE */
+
+#main-image
+{
+    height: 580px;
+    background:url("images/main.jpg") center ;
+
+}
+
+#main-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding:150px 0 40px 0 ;
+    margin-bottom:20px;
+}
+.button-1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: orange;
+    color:white;
+    font-size: 20px;
+    margin:0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+
+}
+.button-1:hover
+{
+    background: rgb(93, 93, 226);
+}
+
+/* STEPS */
+
+#steps ul li h4
+{
+    margin-bottom: 20px;
+}
+#steps ul
+{
+    margin: 80px 0;
+}
+#steps ul li
+{
+    width: 300px;
+    float: left;
+    color:#444;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px ;
+}
+#steps p
+{
+    margin-bottom:20px ;
+    line-height: 20px;
+}
+#step1
+{
+    background: url("images/steps-icon-1.png") no-repeat top center;
+}
+#step2
+{
+    background: url("images/steps-icon-2.png") no-repeat top center;
+
+}
+#step3
+{
+    background: url("images/steps-icon-3.png") no-repeat top center;
+
+}
+
+/* POSSIBILITIES */
+
+#possibilities
+{
+    background-color: #efefef;
+    padding: 60px 0 ;
+}
+#possibilities article
+{
+    width:460px ;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+#possibilities article:first-child
+{
+    margin-right: 20px;
+}
+.overlay
+{
+        background:rgba(255, 255, 255,0.95 ) ;
+        height: 100%;
+        width: 190px;
+        padding: 20px;
+        border-radius:10px 0 0 10px ;
+        text-align:center ;
+        box-sizing: border-box;
+}
+article h4
+{
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+#possibilities p
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button2
+{
+    color: white;
+    background-color: orange;
+    padding:6px 20px ;
+    border-radius: 3px;
+}
+.button2:hover
+{
+    background-color:#02b8dd ;
+}
+
+/* CONTACT */
+
+#contact
+{
+    padding: 60px 0;
+    text-align: center;
+
+}
+#contact h3
+{
+    margin:0 auto 20px auto;
+    border-bottom:solid 2px #02b8dd;
+    width: 400px;
+    padding-bottom: 20px;
+}
+#contact p
+{ 
+    margin: 20px 0 50px 0;
+}
+.button3
+{
+    color: white;
+    background-color: #02b8dd;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    border-style:none;
+}
+.button3:hover
+{
+    color: white;
+    background-color: #444;
+}
+
+label
+{
+        font-size: 20px;
+        margin-right: 10px;
+}
+input[type="text"]
+{
+        padding: 10px;
+        font-size: 20px;
+        margin-right: 20px;
+        border: 2px solid #ddd;
+        border-radius: 3px;
+}
+/* FOOTER */
+footer
+{
+    background-color:rgb(53, 50, 50);
+    text-align: center;
+    height: 260px;
+}
+footer h1
+{
+    padding-top:80px;
+    color: white;
+}
+footer p
+{
+    margin-top: 30px;
+    font-weight: bold;
+    color: #777;
+}
